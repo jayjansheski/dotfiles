@@ -18,7 +18,7 @@ eval "$(rbenv init - --no-rehash)"
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-source ~/.profile
+# source ~/.profile
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/jay/google-cloud-sdk/path.bash.inc' ]; then source '/Users/jay/google-cloud-sdk/path.bash.inc'; fi
