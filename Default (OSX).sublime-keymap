@@ -1,0 +1,12 @@
+[
+  { "keys": ["super+e"], "command": "toggle_side_bar" },
+  { "keys": ["super+3"], "command": "toggle_side_bar" },
+  { "keys": ["command+alt+ctrl+d"], "command": "toggle_side_bar" },
+  { "keys": ["command+r"], "command": "tagtest" },
+  { "keys": ["super+shift+v"], "command": "paste" },
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["ctrl+super+r"], "command": "reveal_in_side_bar" },
+  { "keys": ["ctrl+shift+alt+e"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Set Syntax: "} },
+  { "keys": ["ctrl+shift+alt+3"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Set Syntax: "} },
+  { "keys": ["ctrl+shift+d"], "command": "reveal_in_side_bar"}
+]
