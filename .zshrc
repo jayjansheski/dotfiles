@@ -10,6 +10,10 @@ export ZSH="/Users/jay/.oh-my-zsh"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="robbyrussell"
 
+local ret_status="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
+PROMPT='${ret_status} %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
+RPROMPT="[%D{%y/%m/%f}|%@]"
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
@@ -107,6 +111,7 @@ alias runserver="ttab -t 'Django server' -d ./ pipenv run python manage.py runse
 
 alias tunnel="~/code/idx/everout/tunnel"
 
+# Savage Lovecast stuff
 # . /usr/local/Cellar/asdf/0.7.3/asdf.sh
 # . /usr/local/Cellar/asdf/0.7.3/etc/bash_completion.d/asdf.bash
 # eval "$(rbenv init -)"
