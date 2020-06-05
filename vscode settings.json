@@ -1,0 +1,41 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "editor.cursorSmoothCaretAnimation": true,
+    "jshint.options": {"esversion": 6},
+    "editor.cursorStyle": "block",
+    "editor.fontFamily": "SF Mono, Menlo, Monaco, 'Courier New', monospace",
+    "window.zoomLevel": 0,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "window.title": "${activeEditorMedium}${separator}${rootName}",
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "files.associations": {
+        "*.html": "django-html"
+    },
+    "aws.profile": "profile:default",
+    "aws.samcli.location": "/usr/local/bin/sam",
+    "window.openFoldersInNewWindow": "on",
+    "workbench.colorCustomizations": {
+        "editorCursor.foreground": "#2E9AFE",
+        "terminalCursor.foreground": "#66FF33"
+    },
+    "editor.multiCursorModifier": "ctrlCmd",
+    "todo-tree.tree.showScanModeButton": false,
+    "search.useIgnoreFiles": false,
+    "emmet.triggerExpansionOnTab": true,
+    "breadcrumbs.enabled": true,
+    "search.exclude": {
+        "**/*.ipynb": true,
+        "**/*.pyc": true,
+        "**/assets/dist": true
+    },
+    "files.exclude": {
+        "**/*.pyc": true
+    }
+}
