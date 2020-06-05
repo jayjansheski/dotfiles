@@ -1,0 +1,82 @@
+{
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*ev.docset*",
+		".tags",
+		".tags_sorted_by_file"
+	],
+	"color_scheme": "Packages/ayu/ayu-mirage.sublime-color-scheme",
+	"default_encoding": "UTF-8",
+	"default_line_ending": "unix",
+	"detect_indentation": false,
+	"draw_white_space": "all",
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		"Desktop.ini",
+		"*.pyc",
+		"._*",
+		"Thumbs.db",
+		".Spotlight-V100",
+		".Trashes",
+		"*/dist/*",
+		"*/bower_components/*",
+		"*/assets/vendor/*",
+		"webpack-stats.json",
+		"*/.cache/*"
+	],
+	"folder_exclude_patterns":
+	[
+		".git",
+		"node_modules"
+	],
+	"font_face": "SF Mono",
+	"font_size": 13,
+	"highlight_modified_tabs": false,
+	"hot_exit": false,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"line_padding_bottom": 5,
+	"match_brackets": true,
+	"match_brackets_angle": true,
+	"not_ignored_packages":
+	[
+		"Vintage"
+	],
+	"other_font_faces":
+	[
+		"SF Mono",
+		"Source Code Pro",
+		"Fira Code",
+		"JetBrains Mono"
+	],
+	"remember_open_files": false,
+	"rulers":
+	[
+		80
+	],
+	"show_encoding": true,
+	"show_full_path": true,
+	"show_line_endings": true,
+	"tab_size": 2,
+	"theme": "ayu-mirage.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}
